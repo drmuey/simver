@@ -4,11 +4,11 @@ There are basically two types. Short and long lived.
 
 Aside from completely avoiding this particular rabbit hole here is a sane way to do them:
 
-# Short Lived
+## Short Lived
 
 Just do them in a branch and if it ends up being bad don't merge it up and if it ends up being good merge it up. Done.
 
-# Long Lived
+## Long Lived
 
 These are features you need to get you to the public for some real world battle scarring during an extended period of time.
 
