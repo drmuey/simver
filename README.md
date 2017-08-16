@@ -1,8 +1,10 @@
 # simver
 
-Simple Versioning Specification 1.0
+Simple Versioning Specification 1.0 [WiP ATM]
 
 # Why?
+
+Simpler is easier which means you are more likely to do it and it is more likely to be useful to your consumers.
 
 Under this scheme, version numbers and the way they change convey *very little* meaning about the underlying code and what has been modified from one version to the next. That information is much better conveyed by a [proper changelog](http://keepachangelog.com/en/1.0.0/).
 
@@ -13,6 +15,8 @@ Some reasons why this is good:
 3. builds and releases can still be tagged and referenced as needed
 4. The data for properly measuring the impact of a version change can be found in the [proper changelog](http://keepachangelog.com/en/1.0.0/) entries between the version involved in the decision.
 5. no special interpretation rules need to be applied or documented (0.x does not mean BETA, if its BETA say so in your marketing materials and changelog, even/odd does not mean dev/production, etc)
+
+For comparison see [Semantic Versioning](http://semver.org/). You may find it, or another version scheme, more suitable to your needs.
 
 # Spec
 
