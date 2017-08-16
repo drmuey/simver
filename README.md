@@ -1,6 +1,6 @@
 # simver
 
-Simple Versioning Specification 1.0 [WiP ATM]
+Simple Versioning Specification (SimVer) 1.0 [WiP ATM]
 
 # Why?
 
