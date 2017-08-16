@@ -1,4 +1,4 @@
-# Good Habits
+# Good Deprecation Habits
 
 
 1. Determine a thing needs deprecation and (discuss w/ knowledgable parties if applicable).
