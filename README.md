@@ -12,7 +12,7 @@ Some reasons why this is good:
 
 1. comparing versions is now an extremely simple numeric operation
 2. avoids most, if not all, potential confusion when basing decisions on data encoded in essentially 3 or 4 bits
-3. builds and releases can still be tagged and referenced as needed
+3. builds and releases and disposition like beta, public, stable, etc) can still be tagged and referenced as needed
 4. The data for properly measuring the impact of a version change can be found in the proper changelog (e.g. the “[Keep a Changelog](http://keepachangelog.com/en/1.0.0/)” format) entries between the versions involved in the decision.
 5. no special interpretation rules need to be applied or documented (0.x does not mean pre-release, if its BETA say so in your marketing materials and changelog, even/odd does not mean dev/production, etc)
 
@@ -46,6 +46,14 @@ b5377720 v1.0
 ```
 
 Here we see after `v1.0` we had two changes, thought we we might have a release candidate (–1235) and did a build (+1235), found a bug. Fixed it, built it (`+1236`), thought we we might have a release candidate (`–1236`), and sure enough it checked out so we released it (`v1.1`).
+
+## about “disposition”
+
+If you want to convey which version beta, edge, stable, etc keep that mapping somewhere useful to your consumers.
+
+That may be the changelog, it may be a release page, it may be a JSON file that code consumes, it may be git branches, etc.
+
+The point is the version does not dictate the disposition of the code, the state of the code dictates the disposition of the version in question and its up to a human to decide if/how to map version to tiers based on context of the project.
 
 # Keep a Changelog
 
