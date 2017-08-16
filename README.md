@@ -1,6 +1,6 @@
 # simver
 
-Simple Versioning Specification (SimVer) 1.0 [WiP ATM]
+Simple Versioning Specification (SimVer) 1.0
 
 # Spec
 
@@ -19,6 +19,7 @@ MAJOR does not need to be a factor if you’ve added, updated, removed, or promo
 
 - [FAQ](FAQ.md)
 - [Semantic Versioning](http://semver.org/)
+- We welcome feedback and discussion, please do so via the [git repository Issues](https://github.com/drmuey/simver/issues)
 
 # License
 
