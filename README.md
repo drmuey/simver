@@ -18,8 +18,8 @@ Some reasons why this is good:
 
 1. Keep a [proper changelog](http://keepachangelog.com/en/1.0.0/). 
 2. Given a version number MAJOR.MINOR, _on release_, increment the:
-  1. MAJOR version when you make incompatible API changes.
-  2. MINOR version when you add functionality in a backwards-compatible manner, or make backwards-compatible bug fixes.
+   1. MAJOR version when you make incompatible API changes.
+   2. MINOR version when you add functionality in a backwards-compatible manner, or make backwards-compatible bug fixes.
 
 ## incompatible API changes
 
