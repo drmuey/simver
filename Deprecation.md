@@ -5,7 +5,7 @@
     1. How long it must remain deprecated before it is removed is an important factor driven by the context involved.
 2. If used in new code it should barf w/ information:
     1. what is deprecated
-    2. *if applicable*: why it was deprecated (or pointer to more info about the deprecation)
+    2. *if applicable*: why it was deprecated (or pointer to more info about the deprecation)
     3. when it was deprecated
     4. when it will be removed
     5. what case is tracking the removal
