@@ -6,5 +6,6 @@ and this project adheres to [Simple Versioning](https://drmuey.github.io/simver/
 
 ## [Unreleased]
 
+## [1.0] - 2017-08-16
 ### Added
 - Initial Version
