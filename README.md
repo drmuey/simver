@@ -11,9 +11,9 @@ Simple Versioning Specification (SimVer) 1.0
 
 ## about “incompatible API changes”
 
-MAJOR does not need to be a factor if you’ve properly deprecated something.
+MAJOR does not need to be a factor if you’ve [properly deprecated something](Deprecation.md).
 
-MAJOR does not need to be a factor if you’ve added, updated, removed, or promoted an experimental feature.
+MAJOR does not need to be a factor if you’ve added, updated, removed, or promoted an [experimental feature](Experimental.md).
 
 # See Also
 

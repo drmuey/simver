@@ -6,17 +6,17 @@ Under this scheme, version numbers and the way they change convey *very little* 
 
 Some reasons why this is good:
 
-1. comparing versions is now an extremely simple numeric operation
-2. avoids most, if not all, potential confusion when basing decisions on data encoded in essentially 3 or 4 bits
-3. builds and releases and disposition like beta, public, stable, etc) can still be tagged and referenced as needed
+1. comparing versions is now an extremely simple numeric operation (for computers and humans)
+2. avoids most, if not all, potential confusion when basing decisions on data encoded in essentially 3± bits
+3. builds and releases and disposition (e.g. beta, edge, public, stable, etc) can still be tagged and referenced as needed
 4. The data for properly measuring the impact of a version change can be found in the proper changelog (e.g. the “[Keep a Changelog](http://keepachangelog.com/en/1.0.0/)” format) entries between the versions involved in the decision.
-5. no special interpretation rules need to be applied or documented (0.x does not mean pre-release, if its BETA say so in your marketing materials and changelog, even/odd does not mean dev/production, etc)
+5. no special interpretation rules need to be applied or documented or programmed (0.x does not mean pre-release, if its BETA say so in your marketing materials and changelog, even/odd does not mean dev/production, etc)
 
-For comparison see [Semantic Versioning](http://semver.org/). You may find it, or another version scheme, more suitable to your needs.
+For comparison see [Semantic Versioning](http://semver.org/). You may find it, or another version scheme, more suitable to your needs ¯\\_(ツ)_/¯.
 
 # What about “pre-release and build metadata”?
 
-Additional labels for pre-release and build metadata _are not part of the version_. Instead you should denote those points in history by tags in your repository (displayed where appropriate for consumers) or whatever makes sense in your project. e.g.here is what your git tags may look like, + to denote builds and – to denote release candidate:
+Additional labels for pre-release and build metadata *are not part of the version*. Instead you should denote those points in history by tags in your repository (displayed where appropriate for consumers) or whatever makes sense in your project. e.g. here is what your git tags may look like, + to denote builds and – to denote release candidate (you could just as easily use “b” and “rc” as a prefix):
 ```
 69c0232e v1.1
 69c0232e –1236
