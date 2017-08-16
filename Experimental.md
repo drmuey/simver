@@ -2,7 +2,7 @@
 
 There are basically two types. Short and long lived.
 
-Aside form completely avoiding this particular rabbit hole here is a sane way to do them:
+Aside from completely avoiding this particular rabbit hole here is a sane way to do them:
 
 # Short Lived
 
